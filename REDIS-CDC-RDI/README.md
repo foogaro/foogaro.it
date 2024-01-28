@@ -153,7 +153,7 @@ cd OracleDatabase/SingleInstance/dockerfiles/
 Bene, ora è il momento di metter su un bel &#x2615;
 
 Una volta terminato questo processo, l'immagine Docker è pronta per l'uso. È necessario un volume per garantire la persistenza dei dati.
-Questo è importante non solo per i dati che possono comunque essere ricreati con degli script SQL, ma soprattutto per l'inizializzazione del database, che richiede almeno una decina di minuti.
+Questo è importante non solo per i dati che possono comunque essere ricreati con degli script [SQL](#SQL), ma soprattutto per l'inizializzazione del database, che richiede almeno una decina di minuti.
 Prima di eseguire il comando "docker run", è essenziale creare la directory del volume con i permessi appropriati per evitare problemi nell'avvio.
 
 ```bash
@@ -932,7 +932,7 @@ inizierà a rilevare le modifiche su Oracle, registrando gli eventi negli stream
 Questo non rappresenta un problema per un volume di eventi limitato, come qualche milione.
 Tuttavia, se si tratta di un volume di eventi nell'ordine dei trilioni, diventa preferibile ottimizzare avviando prima Redis Data Integration, per gestire in modo più efficiente questo grande flusso di dati.
 
-I prossimi step sono gli descritti nei paragrafi precedenti, quindi se avete seguito ogni step dovreste avere il vostro ambiente già attivo e potete saltare al paragrafo SQL.
+I prossimi step sono gli descritti nei paragrafi precedenti, quindi se avete seguito ogni step dovreste avere il vostro ambiente già attivo e potete saltare al paragrafo [SQL](#SQL).
 
 ## Oracle 19c 
 
