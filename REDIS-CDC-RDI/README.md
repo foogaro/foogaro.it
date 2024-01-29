@@ -2,10 +2,9 @@
 
 ## Contesto
 
-Nell'ambito tecnologico odierno, caratterizzato da una crescente centralità dei dati nelle strategie decisionali aziendali,
-l'efficienza e la tempestività nel trasferimento delle informazioni sono diventate indispensabili.
-In questo contesto, il Change Data Capture (CDC) si rivela una soluzione strategica per rispondere efficacemente a tali esigenze,
-facilitando una gestione agile e in tempo reale dei dati.
+Nel contesto tecnologico attuale, dove l'efficienza e la tempestività nella trasmissione delle informazioni sono cruciali, l'Event-Driven Architecture (EDA) emerge come soluzione strategica. Questa architettura consente alle aziende di rispondere in modo agile e immediato ai cambiamenti, grazie alla sua capacità di catturare e gestire eventi in tempo reale. In un ambiente dove i dati giocano un ruolo centrale nelle decisioni aziendali, l'EDA facilita una rapida acquisizione e distribuzione delle informazioni, permettendo alle organizzazioni di agire in maniera più informata e reattiva. Così, l'EDA si integra perfettamente in un ecosistema dove velocità, efficienza e dinamicità nella gestione dei dati sono elementi fondamentali per il successo.
+
+Nell'ambito delle architetture guidate dagli eventi (Event-Driven Architecture, EDA), il Change Data Capture (CDC) assume un ruolo di rilievo. Questo design pattern permette di identificare le modifiche avvenute nelle piattaforme di dati e di convertirle in eventi, che possono poi essere trasmessi ad altri sistemi. Questa integrazione tra CDC ed EDA favorisce un'efficace sincronizzazione e reattività nei flussi informativi.
 
 Al di là degli aspetti puramente tecnologici, un altro elemento di vitale importanza per le aziende è rappresentato dalla riduzione dei costi.
 Integrare innovazione con una diminuzione significativa delle spese costituisce una combinazione ideale che soddisfa
